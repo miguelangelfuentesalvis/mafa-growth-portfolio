@@ -88,7 +88,7 @@ const About = () => {
               </div>
               <div className="order-1 md:order-2">
                 <img 
-                  src="/images/about-image-new.png" 
+                  src="/images/yomg.png" 
                   alt="Miguel Fuentes trabajando" 
                   className="rounded-lg shadow-lg w-full h-auto object-cover"
                 />
@@ -197,7 +197,7 @@ const About = () => {
                   <p className="text-muted-foreground">{exp.description}</p>
                 </div>
               </motion.div>
-            ))}
+            ))}\
           </div>
         </motion.div>
       </div>
@@ -206,4 +206,3 @@ const About = () => {
 };
 
 export default About;
-
